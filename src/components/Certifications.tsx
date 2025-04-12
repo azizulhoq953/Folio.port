@@ -3,27 +3,33 @@ import { Award } from 'lucide-react';
 const certifications = [
   {
     title: "DevOps Professional Certification",
-    organization: "Professional DevOps Institute",
-    date: "2023",
+    organization: "Bangladesh Copyright Office & Master Academy",
+    date: "2021",
     credentialId: "DEVOPS-123456"
   },
   {
     title: "Software Development Life Cycle (SDLC)",
-    organization: "Professional Software Engineering Institute",
-    date: "2023",
+    organization: "Simplilearn Institute",
+    date: "2024",
     credentialId: "SDLC-789012"
   },
   {
     title: "Advanced SQL Certification",
-    organization: "Database Professional Institute",
-    date: "2023",
+    organization: "Great Learning",
+    date: "2024",
     credentialId: "SQL-345678"
   },
   {
     title: "Data Structures and Algorithms",
-    organization: "Computer Science Institute",
+    organization: "Simplilearn Institute",
     date: "2023",
     credentialId: "DSA-901234"
+  },
+  {
+    title: "Golang Programming Certification",
+    organization: "Bangladesh Copyright Office & Master Academy",
+    date: "2021",
+    credentialId: "Golang-601238"
   }
 ];
 

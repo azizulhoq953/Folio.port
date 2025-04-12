@@ -7,10 +7,28 @@ const Contact = () => {
     email: '',
     message: ''
   });
+  const [status, setStatus] = useState('');
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log(formData);
+
+    try {
+      const response = await fetch('http://localhost:5000/send-email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        setStatus('Message sent successfully!');
+      } else {
+        setStatus('Error sending message.');
+      }
+    } catch (error) {
+      setStatus('Network error. Please try again.');
+    }
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -23,9 +41,7 @@ const Contact = () => {
   return (
     <section id="contact" className="py-20 bg-white dark:bg-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-bold text-center mb-12 dark:text-white">
-          Get In Touch
-        </h2>
+        <h2 className="text-3xl font-bold text-center mb-12 dark:text-white">Get In Touch</h2>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div>
             <h3 className="text-xl font-semibold mb-6 dark:text-white">Contact Information</h3>
@@ -94,6 +110,7 @@ const Contact = () => {
               Send Message
             </button>
           </form>
+          {status && <p className="text-center mt-4">{status}</p>}
         </div>
       </div>
     </section>

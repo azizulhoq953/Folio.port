@@ -24,7 +24,7 @@ const experiences = [
   {
     title: "Python Trainer",
     company: "Bangladesh Ministry of ICT",
-    period: "2022",
+    period: "2024",
     description: "Conducted training sessions on Python programming for government initiatives"
   }
 ];

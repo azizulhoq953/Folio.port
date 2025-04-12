@@ -15,14 +15,15 @@ const Hero = () => {
             <button className="bg-purple-600 text-white px-8 py-3 rounded-full hover:bg-purple-700 transition-colors">
               View Projects
             </button>
-            <a 
-              href="/resume.pdf" 
-              download
-              className="flex items-center space-x-2 border-2 border-purple-600 text-purple-600 dark:text-purple-400 px-8 py-3 rounded-full hover:bg-purple-600 hover:text-white transition-colors"
-            >
-              <Download size={20} />
-              <span>Download Resume</span>
-            </a>
+  <a 
+  href="/Azizul-Hoq-Resume.pdf" 
+  download
+  className="flex items-center space-x-2 border-2 border-purple-600 text-purple-600 dark:text-purple-400 px-8 py-3 rounded-full hover:bg-purple-600 hover:text-white transition-colors"
+>
+  <Download size={20} />
+  <span>Download Resume</span>
+</a>
+
           </div>
         </div>
       </div>

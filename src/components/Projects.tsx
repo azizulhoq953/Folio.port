@@ -15,7 +15,7 @@ const projects = [
     image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=1000',
     tags: ['React', 'MongoDB', 'Node.js', 'Redux'],
     github: 'https://github.com/azizulhoq953/storyTelling',
-    live: ''
+    live: 'https://storytelling-client.vercel.app/'
 
   },
   {

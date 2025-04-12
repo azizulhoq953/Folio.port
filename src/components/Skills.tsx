@@ -15,7 +15,7 @@ const skillCategories = [
   {
     title: 'Database',
     icon: <Database className="w-8 h-8 text-purple-600 dark:text-purple-400" />,
-    skills: ['PostgreSQL', 'MongoDB', 'Redis', 'Firebase', 'Supabase']
+    skills: ['PostgreSQL', 'MongoDB', 'MySQL', 'SQLite', 'Redis']
   },
   {
     title: 'DevOps & Cloud',
