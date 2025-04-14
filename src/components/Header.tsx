@@ -82,7 +82,7 @@ const Header = () => {
               <a href="https://github.com/azizulhoq953" className="text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors">
                 <Github size={20} />
               </a>
-              <a href="linkedin.com/in/azizulhoq953" className="text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors">
+              <a href="https://linkedin.com/in/azizulhoq953" className="text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors">
                 <Linkedin size={20} />
               </a>
               <a href="mailto:azizulhoq.ha@gmail.com" className="text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors">
