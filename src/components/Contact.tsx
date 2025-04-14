@@ -13,7 +13,7 @@ const Contact = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch('http://localhost:5000/send-email', {
+      const response = await fetch('https://portfolioserver953.netlify.app/send-email', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
