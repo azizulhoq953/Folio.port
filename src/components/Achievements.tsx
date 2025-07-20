@@ -18,13 +18,13 @@ const experiences = [
   {
     title: "Mid-Level Backend Developer",
     company: "Spark Tech Agency",
-    period: "Present",
+    period: "January 2025 - Present",
     description: "Developing and maintaining backend services using Node.js and Golang"
   },
   {
     title: "Python Trainer",
     company: "Bangladesh Ministry of ICT",
-    period: "2024",
+    period: "May 2024 - July 2024",
     description: "Conducted training sessions on Python programming for government initiatives"
   }
 ];
