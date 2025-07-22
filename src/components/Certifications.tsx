@@ -2,7 +2,7 @@ import { Award } from 'lucide-react';
 
 const certifications = [
   {
-    title: "DevOps Professional Certification",
+    title: "DevOps Certification",
     organization: "Bangladesh Copyright Office & Master Academy",
     date: "2021",
     credentialId: "DEVOPS-123456"

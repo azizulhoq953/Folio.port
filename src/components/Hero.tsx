@@ -18,7 +18,7 @@ const Hero = () => {
   <a 
   href="/Azizul-Hoq-Resume.pdf" 
   download
-  className="flex items-center space-x-2 border-2 border-purple-600 text-purple-600 dark:text-purple-400 px-8 py-3 rounded-full hover:bg-purple-600 hover:text-white transition-colors"
+  className="flex items-center space-x-2 border-2 border-purple-600 text-purple-600 dark:text-purple-400 px-6 py-1 rounded-full hover:bg-purple-600 hover:text-white transition-colors"
 >
   <Download size={20} />
   <span>Download Resume</span>
