@@ -12,7 +12,7 @@ const projects = [
   },
     {
     title: 'Parcel Delivery Application',
-    description: 'A backend system for a Parcel Delivery Application designed to manage end-to-end parcel logistics. it supports real-time parcel tracking using WebSockets and integrated map services for visual location updates. The system allows users to create delivery requests, track parcels live, and manage delivery statuses. Admins and delivery personnel have role-based access for managing assignments, routes, and parcel history. The backend ensures secure authentication, efficient data handling, and a smooth, real-time delivery experience.',
+    description: 'A backend system for a Parcel Delivery Application designed to manage end-to-end parcel logistics. it supports push notification and real-time parcel tracking using WebSockets and integrated map services for visual location updates. The system allows users to create delivery requests, track parcels live, and manage delivery statuses. Admins and delivery personnel have role-based access for managing assignments, routes, and parcel history. The backend ensures secure authentication, efficient data handling, and a smooth, real-time delivery experience.',
     image: 'https://i.ibb.co/LDNNGYw9/Parcel.png?auto=format&fit=crop&q=80&w=1000',
     tags: ['Express.js/Node.js', 'MongoDB','Stripe','tracking','JWT', 'REST API'],
     github: 'null',
@@ -55,7 +55,7 @@ const projects = [
     title: 'System Management web Application',
     description: 'A comprehensive web application designed to manage employees, students, and financial records in one centralized system. The platform supports employee onboarding, performance tracking, student enrollment, academic performance monitoring, and financial operations such as budgeting, expense tracking, and fee collection. Role-based access ensures secure data handling for admins, staff, and students, while dashboards provide real-time analytics and reporting features.',
     image: 'https://i.ibb.co/39cmBsHT/fitness.png?t=st=1744367855~exp=1744371455~hmac=0dc1d6388d3c47a4349f7c3a6b945761122b008fb6fc49338972c78049fc2642&w=900',
-    tags: ['Python', 'Django', 'MongoDB'],
+    tags: ['Express.js', 'Node.js', 'MongoDB'],
     github: 'https://github.com/sparktechagency/gem88Eye-Fitness',
     live: '',
   },
