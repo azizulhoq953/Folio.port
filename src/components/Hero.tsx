@@ -1,4 +1,5 @@
-import { ArrowDown, Download } from 'lucide-react';
+import Button from './Button';
+import projectButton from './Project-Button';
 
 const Hero = () => {
   return (
@@ -12,24 +13,23 @@ const Hero = () => {
             I am a passionate software engineer with a focus on web development and cloud technologies. I love building scalable applications and exploring new technologies.
           </p>
           <div className="flex justify-center space-x-4">
-            <button className="bg-purple-600 text-white px-8 py-3 rounded-full hover:bg-purple-700 transition-colors">
-              View Projects
-            </button>
+            {projectButton()}
+
   <a 
   href="/Azizul-Hoq-Resume.pdf" 
   download
-  className="flex items-center space-x-2 border-2 border-purple-600 text-purple-600 dark:text-purple-400 px-6 py-1 rounded-full hover:bg-purple-600 hover:text-white transition-colors"
+
 >
-  <Download size={20} />
-  <span>Download Resume</span>
+
+  {Button()}
 </a>
 
           </div>
         </div>
       </div>
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+      {/* <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
         <ArrowDown className="text-purple-600 dark:text-purple-400" size={32} />
-      </div>
+      </div> */}
     </section>
   );
 };

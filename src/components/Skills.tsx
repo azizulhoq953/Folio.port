@@ -1,5 +1,4 @@
-import React from 'react';
-import { Code2, Database, Layout, Server, Cloud, Cog } from 'lucide-react';
+import { Database, Layout, Server, Cloud, Cog } from 'lucide-react';
 
 const skillCategories = [
   {
@@ -10,7 +9,7 @@ const skillCategories = [
   {
     title: 'Backend Development',
     icon: <Server className="w-8 h-8 text-purple-600 dark:text-purple-400" />,
-    skills: ['Node.js', 'Express', 'Python', 'Java', 'Golang', 'REST APIs']
+    skills: ['Node.js', 'Express', 'Python', 'JavaScript', 'Golang', 'REST APIs']
   },
   {
     title: 'Database',
