@@ -6,32 +6,40 @@ const projects = [
     title: 'Health-Care',
     description: 'A real-time health care application currently serving users in Europe. It enables video consultations between patients and doctors using WebSockets, allows doctors to issue digital prescriptions, and supports purchasing prescribed medicine through secure payments. The backend integrates Stripe for both local and international transactions, user roles (doctor/pharmacy/patient/admin) ensuring fast and secure payment processing.',
     image: 'https://i.ibb.co/RGWqq5WG/doctor-home01.png?auto=format&fit=crop&q=80&w=1000',
-    tags: ['Express.js', 'MongoDB', 'WebSockets', 'Stripe', 'Video Consultation' ,'JWT','REST API'],
+    tags: ['Express.js', 'MongoDB', 'WebSockets', 'MVC'],
     github: 'null',
     live: 'https://dokterforyou.com/',
   },
-    {
+  {
+    title: 'ERP-Desktop Cross-Platform Application',
+    description: 'using Golang with the Fyne.io framework. The system manages business operations such as inventory, sales, accounting, and employee records in a single interface. It provides a clean, responsive UI designed for desktop users across Windows, macOS, and Linux.',
+    image: 'https://i.ibb.co.com/pvWCLg6q/dashboard.png',
+    tags: ['Golang', 'sqlite', 'fyne.io', 'Stripe', 'Video Consultation', 'JWT', 'REST API'],
+    github: 'null',
+    live: 'https://github.com/azizulhoq953/fyne_project.git',
+  },
+  {
     title: 'Parcel Delivery Application',
     description: 'A backend system for a Parcel Delivery Application designed to manage end-to-end parcel logistics. it supports push notification and real-time parcel tracking using WebSockets and integrated map services for visual location updates. The system allows users to create delivery requests, track parcels live, and manage delivery statuses. Admins and delivery personnel have role-based access for managing assignments, routes, and parcel history. The backend ensures secure authentication, efficient data handling, and a smooth, real-time delivery experience.',
     image: 'https://i.ibb.co/LDNNGYw9/Parcel.png?auto=format&fit=crop&q=80&w=1000',
-    tags: ['Express.js/Node.js', 'MongoDB','Stripe','tracking','JWT', 'REST API'],
+    tags: ['Express.js/Node.js', 'MongoDB', 'Stripe', 'tracking', 'JWT'],
     github: 'null',
     live: ' ',
   },
-    {
-  title: 'Service Provider Application',
-  description: 'A full-featured backend system supporting Admin, Service Provider, and Customer roles. Built with Express.js and MongoDB, it enables service listings, bookings, role-based access control, reviews, and secure authentication.',
-  image: 'https://i.ibb.co/tpJ7Hv8X/Untitled-design.png?auto=format&fit=crop&q=200&w=1000',
-  tags: ['Express.js', 'MongoDB', 'JWT', 'RBAC', 'REST API'],
-  github: 'null',
-  live: ' '
-},
+  {
+    title: 'Service Provider Application',
+    description: 'A full-featured backend system supporting Admin, Service Provider, and Customer roles. Built with Express.js and MongoDB, it enables service listings, bookings, role-based access control, reviews, and secure authentication.',
+    image: 'https://i.ibb.co/tpJ7Hv8X/Untitled-design.png?auto=format&fit=crop&q=200&w=1000',
+    tags: ['Express.js', 'MongoDB', 'JWT', 'RBAC', 'REST API'],
+    github: 'null',
+    live: ' '
+  },
 
   {
     title: 'E-commerce Platform',
     description: 'A full-stack e-commerce solution built with React, Node.js, and MongoDB',
     image: 'https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=1000',
-    tags: ['Next.js', 'MongoDB','Stripe','tracking','JWT','REST API'],
+    tags: ['Next.js', 'MongoDB', 'Stripe', 'tracking', 'JWT', 'REST API'],
     github: 'https://github.com/azizulhoq953/food-delivery-CI-CD',
     live: 'https://nfoods.netlify.app/',
   },
