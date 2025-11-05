@@ -32,7 +32,7 @@ const projects = [
     image: 'https://i.ibb.co/tpJ7Hv8X/Untitled-design.png?auto=format&fit=crop&q=200&w=1000',
     tags: ['Express.js', 'MongoDB', 'JWT', 'RBAC', 'REST API'],
     github: 'null',
-    live: ' '
+    live: 'https://play.google.com/store/apps/details?id=com.cordarry.flexbook'
   },
 
   {
@@ -43,6 +43,7 @@ const projects = [
     github: 'https://github.com/azizulhoq953/food-delivery-CI-CD',
     live: 'https://nfoods.netlify.app/',
   },
+
   {
     title: 'Story Telling App',
     description: 'A storytelling platform for sharing and discovering stories',
