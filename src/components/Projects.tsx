@@ -11,6 +11,14 @@ const projects = [
     live: 'https://dokterforyou.com/',
   },
   {
+    title: 'Location-Based Features for Fitness App',
+    description: 'I implemented map integration in a weight loss and walking app, enabling users to track their walking routes, explore new locations, and join local fitness groups. By integrating real-time maps and geolocation services, I created a seamless experience that allows users to engage with their surroundings and connect with others in specific areas, fostering a community-driven approach to fitness and health. This project highlights my expertise in map APIs, geolocation data handling, and building scalable location-based features',
+    image: 'https://i.postimg.cc/Dw3LC0V1/hicking-map.jpg',
+    tags: ['Node.js', 'mongodb', 'stripe', "map", 'JWT', 'REST API'],
+    github: 'https://github.com/azizulhoq953/Map-Backend',
+    live: 'https://github.com/azizulhoq953/Map-Backend',
+  },
+  {
     title: 'ERP-Desktop Cross-Platform Application',
     description: 'using Golang with the Fyne.io framework. The system manages business operations such as inventory, sales, accounting, and employee records in a single interface. It provides a clean, responsive UI designed for desktop users across Windows, macOS, and Linux.',
     image: 'https://i.ibb.co.com/pvWCLg6q/dashboard.png',
