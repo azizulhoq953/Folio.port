@@ -31,3 +31,10 @@ h1 span:hover .letter {
   transform: translateY(-5px);
   transition: transform 0.3s ease-in-out;
 }
+.swiper-pagination-bullet {
+  background: #7c3aed !important; /* purple */
+}
+
+.swiper-pagination-bullet-active {
+  background: #5b21b6 !important;
+}

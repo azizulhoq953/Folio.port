@@ -16,7 +16,7 @@ const achievements = [
 
 const experiences = [
   {
-    title: "Mid-Level Backend Developer",
+    title: "jr. Backend Developer",
     company: "Spark Tech Agency",
     period: "January 2025 - Present",
     description: "Developing and maintaining backend services using Node.js and Golang"

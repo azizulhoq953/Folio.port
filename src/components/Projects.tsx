@@ -1,11 +1,21 @@
 import { ExternalLink, Github } from 'lucide-react';
 import { useState } from 'react';
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
 
 const projects = [
   {
     title: 'Health-Care',
     description: 'A real-time health care application currently serving users in Europe. It enables video consultations between patients and doctors using WebSockets, allows doctors to issue digital prescriptions, and supports purchasing prescribed medicine through secure payments. The backend integrates Stripe for both local and international transactions, user roles (doctor/pharmacy/patient/admin) ensuring fast and secure payment processing.',
-    image: 'https://i.ibb.co/RGWqq5WG/doctor-home01.png?auto=format&fit=crop&q=80&w=1000',
+    // image: 'https://i.ibb.co/RGWqq5WG/doctor-home01.png?auto=format&fit=crop&q=80&w=1000',
+    images: [
+      'https://i.postimg.cc/1zbykj1H/desktop02.jpg',
+      'https://i.postimg.cc/qRQjt9Bx/phone.jpg',
+      'https://i.postimg.cc/RF0wYq4z/Ddesktop_1.jpg'
+    ],
     tags: ['Express.js', 'MongoDB', 'WebSockets', 'MVC'],
     github: 'null',
     live: 'https://dokterforyou.com/',
@@ -112,13 +122,27 @@ const Projects = () => {
               key={index}
               className="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300"
             >
-              <div className="relative h-48">
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-full object-cover"
-                />
-              </div>
+
+            <div className="relative h-48">
+              <Swiper
+                pagination={{ clickable: true }}
+                modules={[Pagination]}
+                className="h-full"
+                simulateTouch={true}
+                touchStartPreventDefault={false}
+              >
+                {(project.images || [project.image]).map((img, i) => (
+                  <SwiperSlide key={i}>
+                    <img
+                      src={img}
+                      alt={`${project.title}-${i}`}
+                      className="w-full h-full object-cover"
+                    />
+                  </SwiperSlide>
+                ))}
+              </Swiper>
+            </div>
+
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2 dark:text-white">{project.title}</h3>
 
@@ -149,6 +173,7 @@ const Projects = () => {
                     </span>
                   ))}
                 </div>
+     
 
                 <div className="flex justify-between">
                   {project.github === 'null' ? (

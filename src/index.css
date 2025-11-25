@@ -31,3 +31,10 @@ a, button {
 ::-webkit-scrollbar-thumb:hover {
   @apply bg-purple-700;
 }
+.swiper-pagination-bullet {
+  background: #7c3aed !important; /* purple */
+}
+
+.swiper-pagination-bullet-active {
+  background: #5b21b6 !important;
+}
