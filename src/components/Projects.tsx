@@ -129,7 +129,8 @@ const Projects = () => {
                 modules={[Pagination]}
                 className="h-full"
                 simulateTouch={true}
-                touchStartPreventDefault={false}
+                touchStartPreventDefault={true}
+                loopPreventsSliding={true}
               >
                 {(project.images || [project.image]).map((img, i) => (
                   <SwiperSlide key={i}>
