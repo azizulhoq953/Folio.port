@@ -124,6 +124,7 @@ const Projects = () => {
             >
 
             <div className="relative h-48">
+              
               <Swiper
                 pagination={{ clickable: true }}
                 modules={[Pagination]}
